@@ -6,5 +6,8 @@
     ":dependencyDashboard"
   ],
   "configMigration": true,
-  "additionalBranchPrefix": "{{parentDir}}-"
+  "ignorePresets": [
+    "group:monorepos",
+    "group:recommended"
+  ]
 }
